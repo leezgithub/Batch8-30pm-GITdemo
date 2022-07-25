@@ -9,3 +9,9 @@ class Main {
     System.out.println("Username is: " + userName);  // Output user input
   }
 }
+# Feature201 changes done by Lee on 25th July 2022
+class Vehicle {
+  protected String brand = "Ford";        // Vehicle attribute
+  public void honk() {                    // Vehicle method
+    System.out.println("Tuut, tuut!");
+  }
